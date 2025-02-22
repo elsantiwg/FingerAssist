@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Sistema_Empresarial</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DPCtlUruNet">
+      <HintPath>..\..\..\..\..\..\Program Files\DigitalPersona\U.are.U SDK\Windows\Lib\.NET\DPCtlUruNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DPUruNet">
+      <HintPath>..\..\..\..\..\..\Program Files\DigitalPersona\U.are.U SDK\Windows\Lib\.NET\DPUruNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
